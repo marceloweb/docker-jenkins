@@ -1,4 +1,4 @@
-FROM jenkins:2.46.1-alpine
+FROM jenkins:2.60.3-alpine
 MAINTAINER Marcelo Oliveira <http://marceloweb.info>
 
 COPY plugins.txt /usr/share/jenkins/plugins.txt
